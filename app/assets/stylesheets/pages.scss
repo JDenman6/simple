@@ -1,3 +1,97 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#top-menu {
+  position:fixed;
+  z-index: 11;
+}
+
+#bio-section {
+  background-image: url(https://cdn.pbrd.co/images/g80949hyl.jpg);
+  background-size:cover;
+  height: 700px;
+}
+
+#bio-text {
+  background-color: #000;
+  width: 500px;
+  height: 700px;
+  margin: 0px 50px;
+  padding: 0px 15px;
+}
+
+#works-section {
+  background-image: url(https://cdn.pbrd.co/images/7R0jLQiis.jpg);
+  background-size: cover;
+  background-color: black;
+  height: 350px;
+}
+
+#sleapyOcean {
+  background-image: url(https://cdn.pbrd.co/images/7RmHC1Bm3.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#simon {
+  background-image: url(https://cdn.pbrd.co/images/7RhJKsKLi.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#weddingSite {
+  background-image: url(https://cdn.pbrd.co/images/MHT2kleQ.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#nav-spacer{
+  height: 50px;
+}
+
+#contact-section {
+  background-color: Gray;
+  padding: 5% 15%;
+}
+
+#contact-form {
+  width: 80%;
+}
+
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}
+
+.short {
+  line-height: 10%;
+}
+
+.square {
+  padding-top: 15%;
+  margin: 2%;
+  cursor: pointer;
+}
+
+.white {
+  color: white;
+  font-size: 19px;
+}
+
+label {
+  color: LightGreen;
+  font-size: 2em;
+}

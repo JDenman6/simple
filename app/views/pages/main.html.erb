@@ -1,2 +1,99 @@
-<h1>Pages#main</h1>
-<p>Find me in app/views/pages/main.html.erb</p>
+<%= javascript_include_tag params[:controller] %>
+<%= stylesheet_link_tag params[:controller] %>
+
+<nav id="top-menu" class="navbar navbar-default col-xs-12" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">James Denman</a>
+    </div>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a href="#bio">Bio</a>
+      </li>
+      <li>
+        <a href="#works">Works</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="nav-spacer"></div>
+
+<div id="bio-section">
+  <div id="bio-text">
+    <br /><a name="bio"></a>
+    <h1 class="text-primary short">Jimmy Denman</h1>
+    <h3 class="text-muted">I love learning anything, building new things, fixing old things, and making new friends. Maybe we can do some of these things together.</h2>
+    <hr />
+    <h1 class="text-primary"> Web Developer & Writer</h1>
+    <h3 class="text-primary text-justify">After a five-year career in tech journalism, where I wrote about software quality, I'm now ready to shift gears and start writing quality software.</h3>
+    <br />
+    <hr />
+    <h1 class="text-primary text-center short">My story</h1>
+    <h3 class="text-muted text-center">(the good parts version)</h3>
+    <ul>
+      <li class="text-primary"><h4>Born between Christmas and New Years, 1983</h4></li>
+      <li class="text-primary"><h4>Graduated SUNY Orange 2005 and SUNY Binghamton 2007</h4></li>
+      <li class="text-primary"><h4>Worked up from data-entry to site editor of SearchSoftwareQuality.com</h4></li>
+      <li class="text-primary"><h4>Decided to make the shift from writing about software development to actually developing software in 2015</h4></li>
+    </ul>
+  </div>
+</div>
+
+<div id="works-section">
+  <a name="works"></a>
+  <div class="row">
+    <div class="col-xs-4"></div>
+    <div id="weddingSite" class="col-xs-2 square"></div>
+    <div id="simon" class="col-xs-2 square"></div>
+    <div id="sleapyOcean" class="col-xs-2 square"></div>
+  </div>
+  <div class="row"></div>
+</div>
+
+<div id="contact-section">
+  <a name="contact"></a>
+  <div id="contact-form">
+    <h3>Get in touch! <span class="text-muted white">(For now this form is toothless)</span></h3>
+    <form>
+    <fieldset class="form-group">
+      <label for="contactEmail">Email address</label>
+      <input type="email" class="form-control" id="contactEmail" placeholder="Enter email">
+      <small class="text-muted">We prolly won't use your email for anything.</small>
+    </fieldset>
+    <fieldset class="form-group">
+      <label for="contactPassword">Password</label>
+      <input type="password" class="form-control" id="contactPassword" placeholder="You don't need a password.">
+    </fieldset>
+    <fieldset class="form-group">
+      <label for="contactSubject">Why are you looking to reach me?</label>
+      <select class="form-control" id="exampleSelect1">
+        <option disabled selected>Pick one</option>
+        <option value="job">Job offer</option>
+        <option value="friend">We're already friends</option>
+        <option value="newb">We should be friends</option>
+        <option value="other">Just 'cuz</option>
+      </select>
+    </fieldset>
+    <fieldset class="form-group">
+      <label for="contactBody">Say what's on your mind, please.</label>
+      <textarea class="form-control" id="exampleTextarea" rows="6"></textarea>
+    </fieldset>
+      <div class="checkbox">
+      <label for="contactCheckedIt">
+        <input type="checkbox"> Check here to let me know you checked this checkbox.
+      </label>
+    </div>
+    <button type="submit" class="btn btn-secondary">Submit</button>
+    </form>
+  </div>
+  <div class="btn-group pull-right" role="socialMediaButtons" aria-label="Social Buttons">
+    <a role="button" class="btn btn-primary" href="https://twitter.com/TimmidJimmid" target="_blank">Twitter</a>
+    <a role="button" class="btn btn-primary" href="https://www.facebook.com/jimmy.denman.5" target="_blank">facebook</a>
+    <a role="button" class="btn btn-primary" href="https://www.linkedin.com/in/james-denman-34b15623" target="_blank">LinkedIn</a>
+  </div>
+</div>
