@@ -13,6 +13,7 @@ academic learning about Ruby and programming in general.
   - [ ] working links
 * The next step will be to get the feedback form working
 * Then I'll add more projects and accolades:
+  - Qubed space prototype
   - HackerRank progress
   - Freecodecamp certification
   - Coder Dojo volunteering
