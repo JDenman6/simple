@@ -36,23 +36,8 @@ body {
   padding-top: 50px;
 }
 
-#sleapyOcean {
-  background-image: url(https://cdn.pbrd.co/images/7RmHC1Bm3.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-#simon {
-  background-image: url(https://cdn.pbrd.co/images/7RhJKsKLi.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#weddingSite {
-  background-image: url(https://cdn.pbrd.co/images/MHT2kleQ.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+.img-responsive {
+  margin-top: 2%;
 }
 
 #nav-spacer{
@@ -89,9 +74,8 @@ body {
 }
 
 .square {
-  padding-top: 15%;
-  margin: 2%;
-  cursor: pointer;
+  height: 100%;
+  padding: 1.5%;
 }
 
 .white {
