@@ -26,10 +26,23 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
-  # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
-
+  # Care if the mailer can't send, but don't cache.
+  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.perform_caching = false
+
+  # Sendgrid host information:
+  config.action_mailer.delivery_method = :smtp
+  host = 'polar-retreat-71474.herokuapp.com'
+  config.action_mailer.default_url_options = { host: host }
+  ActionMailer::Base.smtp_settings = {
+    :address        => 'smtp.sendgrid.net',
+    :port           => '587',
+    :authentication => :plain,
+    :user_name      => ENV['SENDGRID_USERNAME'],
+    :password       => ENV['SENDGRID_PASSWORD'],
+    :domain         => 'heroku.com',
+    :enable_starttls_auto => true
+  }
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
