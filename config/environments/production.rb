@@ -10,9 +10,23 @@ Rails.application.configure do
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
 
-  # Full error reports are disabled and caching is turned on.
-  config.consider_all_requests_local       = false
-  config.action_controller.perform_caching = true
+  # Care if the mailer can't send, and do cache.
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.perform_caching = true
+
+  # Sendgrid host information:
+  config.action_mailer.delivery_method = :smtp
+  host = 'polar-retreat-71474.herokuapp.com'
+  config.action_mailer.default_url_options = { host: host }
+  ActionMailer::Base.smtp_settings = {
+    :address        => 'smtp.sendgrid.net',
+    :port           => '587',
+    :authentication => :plain,
+    :user_name      => ENV['SENDGRID_USERNAME'],
+    :password       => ENV['SENDGRID_PASSWORD'],
+    :domain         => 'heroku.com',
+    :enable_starttls_auto => true
+  }
 
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
