@@ -50,7 +50,6 @@ body {
 }
 
 #contact-form {
-  width: 80%;
 }
 
 .navbar-collapse.collapse {
@@ -90,4 +89,12 @@ body {
 label {
   color: LightGreen;
   font-size: 2em;
+}
+
+.form-horizontal {
+  input.button {
+    float: left;
+    display: block;
+    margin-left: 0px ;
+  }
 }
