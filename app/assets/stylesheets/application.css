@@ -45,3 +45,7 @@
  color: #468847;
  text-align: left;
  }
+
+ .flash-message {
+   color: lightgreen;
+ }

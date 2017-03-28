@@ -26,7 +26,7 @@
 <div id="nav-spacer"></div>
 
 <% flash.each do |key, value| %>
-  <h2 class="flash_message">
+  <h2 class="flash-message">
     <%= content_tag :div, value, class: "flash #{key}" %>
   </h2>
 <% end %>
