@@ -97,13 +97,19 @@
  }
 
  textarea.text {
-   width: 95%;
-   margin-left: 5%;
+   width: 99%;
+   margin-left: 1%;
+   height: 100px;
  }
 
  input.string {
-   width: 95%;
-   margin-left: 5%;
+   width: 50%;
+   margin-left: 1%;
+ }
+
+ select.select {
+   margin: 1%;
+   width: 390px;
  }
 
 
@@ -120,7 +126,6 @@
 
  label.collection_check_boxes {
    float: none;
-   margin: 0;
    vertical-align: -2px;
    margin-left: 2px;
  }
