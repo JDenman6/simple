@@ -7,10 +7,11 @@ class ContactsController < ApplicationController
     @contact = Contact.new(params[:contact])
     @contact.request = request
     if @contact.deliver
-      flash.now[:notice] = 'Thanks for the note!'
+      flash[:notice] = 'Thanks for the note!'
+      redirect_to '/pages/main'
     else
-      flash.now[:error] = 'Whoops. Something went wrong.'
-      render :new
+      flash[:error] = 'Whoops. Something went wrong. Please try to submit that feedback again.'
+      redirect_to '/pages/main'
     end
   end
 end

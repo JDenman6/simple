@@ -25,6 +25,11 @@
 <%= content_tag(:a, '', :id => 'bio') %>
 <div id="nav-spacer"></div>
 
+<% flash.each do |key, value| %>
+  <h2 class="flash_message">
+    <%= content_tag :div, value, class: "flash #{key}" %>
+  </h2>
+<% end %>
 
 <div id="bio-section">
   <div id="bio-text">
