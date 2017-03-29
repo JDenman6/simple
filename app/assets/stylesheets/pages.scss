@@ -13,8 +13,10 @@ body {
 
 #bio-section {
   background-image: url(https://cdn.pbrd.co/images/g80949hyl.jpg);
-  background-size:cover;
   height: 700px;
+  background-attachment: fixed;
+  background-size: cover;
+
 }
 
 #bio-text {
