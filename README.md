@@ -11,10 +11,10 @@ academic learning about Ruby and programming in general.
   - http://codepen.io/JDenman6/pen/EKLGZJ
   - [x] appearance
   - [x] working links
-* [ ] The next step will be to get the feedback form working
+* [x] The next step will be to get the feedback form working
   - [x] working feedback form on main page
-  - [ ] style feedback form to fit my style
-  - [x] get flash message working on main page 
+  - [x] style feedback form to fit my style
+  - [x] get flash message working on main page
 * [ ] Then I'll add more projects and accolades:
   - [x] Qubed space prototype
   - [ ] HackerRank progress
