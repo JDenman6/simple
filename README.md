@@ -8,7 +8,7 @@ academic learning about Ruby and programming in general.
 
 * [x] We're starting with Ruby v 2.3.1 on  Rails 5.0.2
 * Here's a list of goals:
-* [x]recreate the portfolio page here:
+* [x] Recreate the portfolio page here:
   - http://codepen.io/JDenman6/pen/EKLGZJ
   - [x] appearance
   - [x] working links
