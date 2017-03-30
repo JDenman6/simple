@@ -1,6 +1,8 @@
 class ContactsController < ApplicationController
   def new
     @contact = Contact.new
+    flash[:notice] = 'The contacts page no longer exists. Have a nice day!'
+    redirect_to '/pages/main'
   end
 
   def create
