@@ -17,40 +17,14 @@
   <%= content_tag(:a, '', :id => 'works') %>
 </div>
 
-
 <div id="works-section">
   <%= render "works" %>
   <%= content_tag(:a, '', :id => 'contact') %>
 </div>
 
-
-
 <div id="contact-section">
-  <div id="contact-form">
-    <div>
-      <h3>Get in touch!</h3>
-      <% @contact = Contact.new %>
-      <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
-        <%= f.input :name, :label => 'Name:', :required => false %>
-        <%= f.input :email, :label => 'Email address:', :required => false %>
-        <%= f.input :reason, :label => "Why are you contacting me?", collection: [
-          'Job offer', "We're already friends", "We should be friends", "Just cuz..."
-          ], prompt: "pick one" %>
-        <%= f.input :message, :label => "What's on your mind, please:",
-            :as => :text, :required => false %>
-        <div class= "hidden">
-          <%= f.input :nickname, :hint => 'Leave this field blank!' %>
-        </div>
-        <div>
-          </br>
-          <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
-        </div>
-      <% end %>
-    </div>
-  </div>
-  <div class="btn-group pull-right bottom" role="socialMediaButtons" aria-label="Social Buttons">
-    <a role="button" class="btn btn-primary" href="https://twitter.com/TimmidJimmid" target="_blank">Twitter</a>
-    <a role="button" class="btn btn-primary" href="https://www.facebook.com/jimmy.denman.5" target="_blank">facebook</a>
-    <a role="button" class="btn btn-primary" href="https://www.linkedin.com/in/james-denman-34b15623" target="_blank">LinkedIn</a>
-  </div>
+
+  <%= render "contact_form" %>
+  <%= render "social_buttons" %>
+
 </div>
