@@ -131,3 +131,12 @@
    vertical-align: -2px;
    margin-left: 2px;
  }
+
+
+/* Bootsrap styles  */
+.btn.btn-green {
+  background-color: lightgreen;
+  font-weight: 600;
+  font-size: 1em;
+  color: gray;
+}
