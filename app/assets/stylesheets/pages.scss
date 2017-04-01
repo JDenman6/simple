@@ -13,16 +13,16 @@ body {
 
 #bio-section {
   background-image: url(https://cdn.pbrd.co/images/g80949hyl.jpg);
-  height: 750px;
+  height: 875px;
+
   background-attachment: fixed;
   background-size: cover;
-
 }
 
 #bio-text {
   background-color: #000;
-  width: 500px;
-  height: 750px;
+  width: 400px;
+  height: 875px;
   margin: 0px 50px;
   padding: 0px 15px;
 }
@@ -31,7 +31,8 @@ body {
   background-image: url(https://cdn.pbrd.co/images/7R0jLQiis.jpg);
   background-size: cover;
   background-color: black;
-  height: 550px;
+  height: 750px;
+
 }
 
 .links-row {
@@ -44,9 +45,9 @@ body {
 
 .link-title {
   display: table-cell;
-  margin-left: 15%;
   height: 40px;
   vertical-align: bottom;
+  font-size: 1.5em;
 }
 
 #nav-spacer{
@@ -58,12 +59,9 @@ body {
   padding: 5% 15%;
 }
 
-#contact-form {
-}
-
-.navbar-collapse.collapse {
-  display: block!important;
-}
+// .navbar-collapse.collapse {
+//   display: block!important;
+// }
 
 .navbar-nav>li, .navbar-nav {
   float: left !important;
@@ -81,20 +79,6 @@ body {
   line-height: 10%;
 }
 
-.square {
-  height: 100%;
-  padding: 1.5%;
-}
-
-.white {
-  color: white;
-  font-size: 19px;
-}
-
-.bottom {
-  margin-bottom: 100px;
-}
-
 label {
   color: LightGreen;
   font-size: 2em;
@@ -104,6 +88,6 @@ label {
   input.button {
     float: left;
     display: block;
-    margin-left: 0px ;
+    margin: 0px ;
   }
 }
