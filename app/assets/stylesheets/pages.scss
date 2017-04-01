@@ -11,6 +11,10 @@ body {
   z-index: 11;
 }
 
+#nav-spacer{
+  height: 50px;
+}
+
 #bio-section {
   background-image: url(https://cdn.pbrd.co/images/g80949hyl.jpg);
   height: 875px;
@@ -25,6 +29,10 @@ body {
   height: 875px;
   margin: 0px 50px;
   padding: 0px 15px;
+}
+
+.short {
+  line-height: 10%;
 }
 
 #works-section {
@@ -50,13 +58,13 @@ body {
   font-size: 1.5em;
 }
 
-#nav-spacer{
-  height: 50px;
-}
-
 #contact-section {
   background-color: Gray;
   padding: 5% 15%;
+}
+
+#footer {
+  height: 100px;
 }
 
 // .navbar-collapse.collapse {
@@ -73,10 +81,6 @@ body {
 
 .navbar-right {
   float: right!important;
-}
-
-.short {
-  line-height: 10%;
 }
 
 label {
