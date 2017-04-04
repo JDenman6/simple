@@ -3,7 +3,7 @@
 ## Hello... World!
 ### This is just a quick profile page project.
 
-#### Check out the current product at https://polar-retreat-71474.herokuapp.com
+#### Check out the current product [on Heroku](https://polar-retreat-71474.herokuapp.com)
 
 Getting myself back on to practical projects after a year or so of more
 academic learning about Ruby and programming in general.
