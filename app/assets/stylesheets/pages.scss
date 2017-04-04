@@ -70,7 +70,16 @@ body {
 #experience-text {
   color: white;
   opacity: 1.5;
+  .exp-date {
+    float: right;
+  }
+  .skills {
+    color: goldenrod;
+  }
+
 }
+
+
 
 #contact-section {
   background-color: Gray;
