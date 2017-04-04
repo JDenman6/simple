@@ -25,4 +25,3 @@ academic learning about Ruby and programming in general.
   - [x] Coder Dojo volunteering
   - [x] Salesforce admin experience
   - [x] SearchSoftwareQuality.com writing
-  - [?] etc. etc. etc.
