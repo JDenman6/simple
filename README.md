@@ -18,11 +18,11 @@ academic learning about Ruby and programming in general.
   - [x] get flash message working on main page
 * [x] Add parallax effect
   - [x] to bio section
-* [ ] Add more projects and accolades:
+* [x] Add more projects and accolades:
   - [x] Qubed space prototype
-  - [ ] HackerRank progress
-  - [ ] Freecodecamp certification
-  - [ ] Coder Dojo volunteering
-  - [ ] Salesforce admin experience
-  - [ ] SearchSoftwareQuality.com writing
-  - [ ] etc. etc. etc.
+  - [x] HackerRank progress
+  - [x] Freecodecamp certification
+  - [x] Coder Dojo volunteering
+  - [x] Salesforce admin experience
+  - [x] SearchSoftwareQuality.com writing
+  - [?] etc. etc. etc.
