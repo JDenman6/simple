@@ -18,6 +18,7 @@ academic learning about Ruby and programming in general.
   - [x] get flash message working on main page
 * [x] Add parallax effect
   - [x] to bio section
+  - [x] to experience section
 * [x] Add more projects and accolades:
   - [x] Qubed space prototype
   - [x] HackerRank progress
